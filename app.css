@@ -1,0 +1,238 @@
+/* /* @charset "UTF-8"; */
+/* body{  font-size: 16px; } */
+/* h1{ font-size:28px; font-weight: bold;} */
+h2{ font-size:20px;}
+h3{ font-size:18px;}
+img{ max-width:100%;} 
+
+/*======================================================================================================
+                            Global
+=======================================================================================================*/
+
+a {
+    color: rgb(32, 178, 170);
+}
+
+a:hover {
+    color: #000;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 10px 5px;
+    min-height: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    line-height: 31px;
+}
+
+.row
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+li a
+{
+    text-decoration: none;
+}
+#heading-text 
+{
+    padding-top: 10px;
+}
+#heading-text h3 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 63px;
+    text-transform: uppercase;
+}
+
+#heading-text p {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px
+}
+
+.main_content 
+{
+    padding: 50px 0px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------
+                                navbar
+-------------------------------------------------------------------------------------------------------*/
+#navigation, .navbar-default
+{
+    border-radius: 0px;
+    border: 0;
+    background-color: rgba(0,0,0,0.19);
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    transition: all 0.5s cubic-bezier(.17,.67,.83,.67);
+    color: #E5E5E5;
+    margin: 5px 20px;
+    padding: 0;
+    line-height: 28px;
+    font-family: "Coda";
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-family: "Coda";  
+    padding: 5px 15px;  
+    font-size: 26px;  
+    line-height: 100%;  
+    height: auto;
+}
+
+#wrapper
+{
+    background: url(../manabilabo/img/top.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#overlay-1
+{
+    background-color: rgba(40, 40, 40, 0.6);
+    position: relative;
+}
+
+.starting-text
+{
+    padding: 177px 0px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 2px;
+}
+.mana {
+    font-size: 120px;
+    color: white;
+    font-family: "omnes-pro", "Helvetica", sans-serif;
+    font-weight: 300;
+    margin-top: 75px;
+}
+
+.starting-text h2 {
+    font-family: "omnes-pro", "Helvetica", sans-serif;
+    color: #fff;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------
+                            about us
+------------------------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------------------------------------
+Our service
+-----------------------------------------------------------------------------------------------------*/
+
+.about-service 
+{
+    padding: 0px 10px 0px 10px;
+}
+.about-service h3 {
+    font-family: "Coda";
+    font-size: 28px;
+}
+
+hr
+{
+    border-color: rgb(101,85,124);
+}
+
+.full
+{
+    width: 25%;
+}
+
+.service:hover .about-service h3 
+{
+    color: rgb(175, 104, 77)
+}
+
+/*----------------------------------------------------------------------------------------------------
+                                    FOOTER
+-----------------------------------------------------------------------------------------------------*/
+.main-footer
+{
+    background-color: rgba(26, 26, 26, 1);
+    padding: 20px 0px;
+}
+.logo h1
+{
+    color: #F2F2F2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+.copyright
+{
+    margin-top: 10px; 
+    font-size: 16px;
+    color: #f3f3f3;
+}
+.copyright a:hover
+{
+    text-decoration: none;
+   /*  color: #137513; */
+   color: darkcyan;
+}
+.copyright a
+{
+    color: #FFFFFF;
+}
+
+
+/*---------------------------------------------------------------------------------------------------
+                field
+----------------------------------------------------------------------------------------------------*/
+.field-name 
+{
+    padding: 40px 0px 25px 0px;
+}
+
+/* ---------------------------------------------------------------------------------------------------
+                            contact
+ ---------------------------------------------------------------------------------------------------*/
+ .input-group
+ {
+    padding: 16px 0px;
+ }
+ .send
+ {
+    float: left;
+ }
+
+ #contact
+ {
+    padding-bottom: 40px;
+ }
+
+/* ---------------------------------------------------------------------------------------------------
+                            いいね機能
+ ---------------------------------------------------------------------------------------------------*/
+
+#fb-root{
+    text-align: center;
+}
+
+
